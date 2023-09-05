@@ -1,0 +1,6 @@
+displayName = Simple Equipment Perks
+author = BlockCrusader
+version = 1.1.1
+includeSource = true
+hideResources = true
+homepage = https://forums.terraria.org/index.php?threads/blockcrusaders-mods.122946/

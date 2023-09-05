@@ -1,0 +1,48 @@
+[h1]Simple Equipment Perks[/h1]
+
+Simple Equipment Perks adds more flair, functionality, and distinctness to your pets, light pets, minecarts, and wings! This mod introduces new, simple benefits to almost all vanilla items falling under one of the previously mentioned categories, making obtaining these items more rewarding and helpful as well as making them stand out from eachother that much more.
+
+[h2]Pet Perks:[/h2]
+[list]
+    [*]Every single vanilla pet except for Chester (since he already has a special ability) now has a perk
+    [*]Many perks add small stat boosts, others grant debuff immunities, and those are just a few examples
+    [*]Some perks may be stronger than others, but have trigger conditions or trade-offs
+    [*]Particularly rare/special pets, as well as all Master Mode pets, tend to have stronger perks to make them more rewarding finds
+    [*]Note that perks are granted by a pet's corresponding buff. This mean's you'll need your pet active to get its effects
+[/list]
+
+[h2]Light Pet Perks:[/h2]
+[list]
+    [*]Most light pets also have perks, alebit weaker ones since you can get a perk from a normal pet at the same time
+    [*]The Magic Lantern doesn't get a perk since it already has the ability to expose treasure
+    [*]Like with normal pets, Master Mode light pets are a little stronger than the others
+    [*]On a similar note, Expert Mode's Suspicious Looking Tentacle still has a perk (due to its rarity) where it would otherwise not (since it can also detect treasure)
+[/list]
+
+[h2]Minecart Perks:[/h2]
+[list]
+    [*]All carts without a special effect, excluding the wooden (default) and plain/metal minecarts, have an associated perk
+    [*]Once again, the perk depends on the item's corresponding buff, so you'll only enjoy these effects while riding
+    [*]Some other carts without new perks (since they're already special) incldue the: Minecarp, Hellcart, and Molecart
+[/list]
+
+[h2]Wing Perks:[/h2]
+[list]
+    [*]All wings, excluding Fledgling, have new, perk-esque, effects
+    [*]Wing perks generally aren't very powerful, given flight on its own is crucially useful already
+    [*]Unlike the other perks, wings don't rely on an associated buff and will provide their new benefit at all times
+[/list]
+
+[h2]Other Features:[/h2]
+[list]
+    [*]Tooltips: Items with perks have gained tooltips describing the effect(s) of the perk. These tooltips can be toggled via. configuration
+    [*]Toggles Stones: A set of items which can manually toggle each perk category on a per-player basis
+    [*]Cross-Mod(?): Unfortunatley, this mod has no calls, but it is relativley simple to add compatibility; just add extra effects for the desired items and their respective buffs in your mod, and make them conditionally activate based on if this mod is present/active. If you can't figure this out, tML wiki on github can help!
+[/list]
+
+[h3]Final notes/disclaimers:[/h3]
+[list]
+    [*]Due to the purely beneficial nature of perks (Excluding trade-off style perks), this mod shouldn't be considered friendly to vanilla balancing. Since the perks generally have minor effects, this shouldn't be a huge deal, though
+    [*]Shoutout to the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2982195397]Pets Overhaul mod, by Endie[/url], which inspired me make this mod. If you want something more intricate or powerful, definitley check it out! Also, there's no reason why these mods shouldn't stack, so if you really want to give power to your pets, try both at once!
+    [*]Last but not least, enjoy!
+[/list]

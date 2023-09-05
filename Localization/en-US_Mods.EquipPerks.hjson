@@ -1,0 +1,665 @@
+CommonItemtooltip: {
+	Toggles: {
+		PetOn: Pet Perks Enabled!
+		PetOff: Pet Perks Disabled!
+		LightOn: Light Pet Perks Enabled!
+		LightOff: Light Pet Perks Disabled!
+		CartOn: Minecart Perks Enabled!
+		CartOff: Minecart Perks Disabled!
+		WingOn: Wing Perks Enabled!
+		WingOff: Wing Perks Disabled!
+		AllOn: Perks Enabled!
+		AllOff: Perks Disabled!
+	}
+
+	PerkTitle: Perks:
+
+	#{$CommonItemtooltip.PerkTitle}
+	
+	Perks: {
+		# Used by: Bee cart and Dev wings
+		LuckBoost: Slightly increases luck
+		# Used by: EoS and Face Monster pets
+		PetAggroDown:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Enemies are less likely to target you
+			'''
+		# Pets
+		PetBunny:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Grants a Discount Card effect
+			'''
+		PetPenguin:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Immunity to chilled waters
+			Slightly increases fishing power
+			'''
+		PetTurtle:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Slightly increases movement speed while in water
+			Otherwise slightly increases defense
+			'''
+		PetGuardian:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Increases defense
+			5% increased damage
+			'''
+		PetHornet:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Immunity to Poison
+			'''
+		PetTiki:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Slightly increases mana regeneration
+			Slightly increases magic and summon knockback
+			'''
+		PetLizard:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Increases life regeneration and slightly increases movement speed while below 50% life
+			'''
+		PetParrot:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			4% increased ranged critical strike chance
+			'''
+		PetTruffle:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Immunity to Confusion
+			'''
+		PetSeedling:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Increases life regeneration at day
+			'''
+		PetDino:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Immunity to Broken Armor
+			Slightly increases armor penetration for melee weapons
+			'''
+		PetEyezor:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Increases jump speed
+			2% increased critical strike chance
+			'''
+		PetSnowman:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Grants an Ice Skates effect
+			Immunity to Chilled
+			'''
+		PetSpider:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Immunity to Webbed and Acid Venom
+			'''
+		PetSquashling:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Decreases your defense some
+			In return, life regeneration is increased
+			'''
+		PetBlackCat:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Slightly decreases your luck
+			In return, magic damage is increased by 4%
+			If negative luck is incurred, magic critical strike chance is also increased by 4%
+			'''
+		PetCursedSapling:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Grants a Battle Potion effect
+			'''
+		PetPuppy:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Immunity to Weak and Slow
+			Very slightly increases luck of nearby players and the owner
+			'''
+		PetGrinch:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Increases damage by 10% during a Frost Moon or while afflicted by Chilled, Frozen, or Frostburn effects
+			'''
+		PetZephyr:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Increases fishing power
+			This boost is doubled while it is raining
+			'''
+		PetMinotaur:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Enemies are more likely to target you
+			Increases melee speed by 5%
+			'''
+		PetCube:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Increases falling speed
+			'''
+		PetGato:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			2% increased summon damage
+			Grants increased movement and jump speed while the Old One's Army is invading
+			'''
+		PetDragon:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			2% increased summon damage
+			Grants a Treasure Magnet effect while the Old One's Army is invading
+			'''
+		PetTwink:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Increases maximum mana by 20
+			Increases jump speed
+			'''
+		PetSugarGlider:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Increases fall resistance
+			'''
+		PetShark:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Grants the ability to swim
+			Slightly increases fishing power
+			'''
+		PetPanda:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Grants a Calming Potion effect
+			'''
+		PetImp:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Cannot be set on fire, nor harmed by fire blocks
+			'''
+		PetHarpy:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Slightly increases flight time
+			'''
+		PetFennec:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Grants a Sonar Potion effect
+			'''
+		PetButterfly:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			3% increased magic critical strike chance
+			This boost is doubled during the day
+			'''
+		PetPlantero:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Increases whip range by 5%
+			Increases melee and whip speed by 5% while below 50% life
+			'''
+		PetDynamiteKitten:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Increases armor penetration for ranged weapons
+			Increases mining speed by 5%
+			'''
+		PetWerewolf:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			4% increased melee damage and speed at night
+			'''
+		PetMimic:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Grants immunity to fire blocks
+			Enemies are less likely to target you
+			'''
+		PetPikachu:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Immunity to Electrified
+			Increases acceleration
+			Increases movement speed and increases acceleration farther while it is storming
+			'''
+		PetKS:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Increases jump speed
+			Increases fall resistance
+			'''
+		PetEoC:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Improves night vision
+			Increases critical strike chance by 4% at night
+			'''
+		PetEoW:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Slightly increases defense
+			Increases mining speed by 20%
+			'''
+		PetBoC:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Immunity to Confusion
+			Increases life regeneration
+			'''
+		PetSkeletron:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Immunity to Cursed and Bleeding
+			Slightly increases knockback at night
+			'''
+		PetQB:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Immunity to Poisoned
+			Douses you in honey
+			'''
+		PetDestroyer:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Immunity to Broken Armor
+			Increases defense
+			Increases mining speed by 30%
+			'''
+		PetTwins:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Grants immunity to most vision inhibiting debuffs
+			Improves night vision
+			Increases critical strike chance by 5%
+			'''
+		PetPrime:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Immunity to Cursed and Bleeding
+			Increased knockback
+			Slightly increases armor penetration
+			'''
+		PetPlantera:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Immunity to Poisoned and Acid Venom
+			Attackers also take damage
+			'''
+		PetDuke:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Immunity to Feral Bite
+			Grants the ability to swim
+			Slightly increases movement speed and damage while wet or under 50% life
+			'''
+		PetCultist:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Immunity to most debuffs inflicted by Lunar enemies
+			Reduces maximum life by 10%
+			In return, magic critical strike chance and summon damage are both increased by 10%
+			'''
+		PetML:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Immunity to Moon Bite
+			Increases life regeneration
+			Slightly improves lifesteal
+			'''
+		PetEverscream:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Grants a Warmth Potion effect
+			Increases defense and life regeneration during a Frost Moon
+			'''
+		PetIQ:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Provides immunity to chill, freezing, and frostburn effects
+			Increases damage by 10% during a Frost Moon
+			'''
+		PetMartian:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Increases movement speed and acceleration
+			Grants a Featherfall Potion effect
+			'''
+		PetOgre:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Immunity to Oozed
+			Increases summon damage by 4%
+			Grants immunity to knockback and increases knockback while the Old One's Army is invading
+			'''
+		PetBetsy:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Cannot be set on fire
+			Increases summon damage by 6%
+			Increases damage by 10% while the Old One's Army is invading
+			'''
+		PetQS:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Increases flight time
+			Slightly increases jump speed
+			Negates fall damage and increases jump speed slihgtly farther while not wearing wings
+			'''
+		PetDeerclops:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Grants immunity to freezing and slow effects
+			Grants immunity to knockback
+			Slightly increases defense while chilled
+			'''
+		PetSlimes:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Increases flight time
+			Increases jump speed
+			Negates fall damage and increases jump speed slihgtly farther while not wearing wings
+			'''
+		PetBernie:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Increases life regeneration
+			'''
+		PetGlommer:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Increases jump speed and enables auto-jump
+			'''
+		PetPig:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Decreases damage by 10%
+			In return, maximum life is increased by 10%, up to +50
+			'''
+		PetJunimo:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Increases maximum mana by 20
+			4% reduced mana usage
+			'''
+		PetChicken:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Slightly increases luck
+			Slightly increased fall resistance
+			'''
+		PetSpiffo:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Increases defense at night
+			'''
+		PetCaveling:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Increases mining speed by 10%
+			'''
+		PetDirt:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Increases luck
+			Increases mining speed by 10%
+			'''
+		# Light Pets
+		LightShadowOrb:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Slightly increases defense at night
+			'''
+		LightFairy:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Increases life regeneration while below 25% life
+			'''
+		LightWisp:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Increases mana regeneration while below 50% life
+			This increase becomes more potent as health wanes farther
+			'''
+		LightHeart:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Slightly increases life regeneration while below 50% life
+			'''
+		LightFlickerwick:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Provides immunity to most fire related debuffs and slightly increases magic and summon damage while the Old One's Army is invading
+			'''
+		LightML:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Grants immunity to most vision inhibiting bebuffs
+			'''
+		LightGolem:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Slightly increases defense
+			This boost is much stronger while standing still
+			'''
+		LightEoL:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Slightly increases damage at day
+			Slightly increases defense at night
+			Slightly increases flight time
+			'''
+		LightPumpking:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Immunity to Cursed Inferno and Ichor
+			Slightly increases defense and knockback during a Pumpkin Moon
+			'''
+		# Minecarts
+		CartMech: Slightly increases defense and armor penetration
+		CartDesert:
+			'''
+			Increases block placement & tool range
+			Increases mining speed
+			'''
+		CartBee: Douses the rider in honey
+		CartPigron:
+			'''
+			Grants immunity to chilled waters
+			Makes enemies less likely to target you
+			'''
+		CartSunflower: Decreases enemy spawns
+		CartShroom:
+			'''
+			Generates a small amount of light
+			Improves night vision
+			'''
+		CartGem: Slightly increases defense
+		CartBeetle: Slightly increases defense and melee knockback
+		CartMeowmere:
+			'''
+			Increases life regeneration
+			Increases melee speed by 5%
+			'''
+		CartParty:
+			'''
+			Grants a Flask of Party effect
+			Slightly increases life regeneration and luck during a party
+			'''
+		CartDutchman: Grants a Flask of Midias effect
+		CartSteampunk: Increases ranged attack speed by 5%
+		CartCoffin: Increases defense while below 50% life
+		CartFart: Makes enemies less likely to target you
+		CartTerraFart:
+			'''
+			Increases damage by 5%
+			Makes enemies less likely to target you
+			'''
+		# Wings
+		WingsAngel: Slightly increases life regeneration
+		WingsDemon: 2% increased damage
+		WingsFairy: Increases life regeneration when below 25% life
+		WingsFin: Grants the ability to swim
+		WingsFrozen: Provides immunity to chill and freezing effects
+		WingsHarpy: Increases jump speed
+		WingsJetpack: 3% increased ranged attack speed
+		WingsLeaf:
+			'''
+			Increases whip range by 5%
+			2% increased whip speed
+			'''
+		WingsBat: Slightly improves lifesteal at night
+		WingsBee:
+			'''
+			Slightly increases life regeneration
+			Immunity to Poison
+			'''
+		WingsButterfly:
+			'''
+			Increases life regeneration at day
+			Increases mana regeneration at night
+			'''
+		WingsFlame: Provides immunity to most fire related debuffs
+		WingsSpectre:
+			'''
+			Slightly improves lifesteal while below 50% life
+			Otherwise increases magic damage by 4%
+			'''
+		WingsHoverboard: 4% increased ranged damage
+		WingsBone: Slightly increases defense while below 50% life, and again while below 25% life
+		WingsMothron:
+			'''
+			Increases life regeneration during the night or a solar eclipse
+			Eclipses additionally grant 3% increased critical strike chance
+			'''
+		WingsBeetle:
+			'''
+			Slightly increases defense while below 50% life
+			Otherwise increases armor penetration for melee weapons
+			'''
+		WingsFestive: Grants a warmth potion effect
+		WingsSpooky:
+			'''
+			3% increased summon damage
+			Slightly increases summon knockback
+			'''
+		WingsTatteredFairy:
+			'''
+			Slightly reduces the effectiveness of bonus life regeneration
+			In return, mana regeneration is increased below 50% life, and again while below 25% life
+			'''
+		WingsSteampunk: Slightly increases acceleration
+		WingsBetsy:
+			'''
+			Cannot be set on fire
+			Slightly increases damage and knockback while the Old One's Army is invading
+			'''
+		WingsEmpress:
+			'''
+			Slightly increased damage at day
+			Slightly increased defense at night
+			'''
+		WingsFishron: While wet or below 50% life, gain increased acceleration and slightly increased damage
+		WingsNebula: 12% reduced mana usage
+		WingsVortex: 6% increased ranged critical strike chance
+		WingsSolar: 6% increased melee speed
+		WingsStardust: 6% increased summon damage
+		WingsWarpStar: Increases life and mana regeneration
+	}
+}
+
+Items: {
+	WingStone: {
+		Tooltip: Toggles whether or not you recieve additional effects from your equipped wings
+		DisplayName: Wing Stone
+	}
+
+	ResonateStone: {
+		Tooltip: Toggles whether or not you recieve perks from your active pet
+		DisplayName: Resonate Stone
+	}
+
+	MinersStone: {
+		Tooltip: Toggles whether or not you recieve additional effects from your minecart while riding
+		DisplayName: Miner's Stone
+	}
+
+	LightStone: {
+		Tooltip: Toggles whether or not you recieve perks from your active light pet
+		DisplayName: Light Stone
+	}
+
+	PotentialStone: {
+		DisplayName: Potential Stone
+		Tooltip: Toggles whether or not you recieve perks and additional effects from your active pet and light pet, equipped wings, and mounted minecart
+	}
+}
+
+Configs: {
+	PerksConfig: {
+		DisplayName: Main Config
+
+		petTooltips: {
+			Label: Perk Tooltips: Pets
+			Tooltip:
+				'''
+				Toggles extra tooltips for pets that describe their assossicated perks
+				Defaults to true
+				Doesn't require a reload to change
+				'''
+		}
+
+		lightTooltips: {
+			Label: Perk Tooltips: Light Pets
+			Tooltip:
+				'''
+				Toggles extra tooltips for light pets that describe their assossicated perks
+				Defaults to true
+				Doesn't require a reload to change
+				'''
+		}
+
+		cartTooltips: {
+			Label: Perk Tooltips: Minecarts
+			Tooltip:
+				'''
+				Toggles extra tooltips for minecarts that list their additional benefits
+				Defaults to true
+				Doesn't require a reload to change
+				'''
+		}
+
+		wingTooltips: {
+			Label: Perk Tooltips: Wings
+			Tooltip:
+				'''
+				Toggles extra tooltips for wings that list their additional benefits
+				Defaults to true
+				Doesn't require a reload to change
+				'''
+		}
+
+		perkDefault: {
+			Label: Perks Start Enabled
+			Tooltip:
+				'''
+				Decides the default setting for all perk toggles
+				If set to false perks will start deactivated with each reload
+				Attain a Resonate Stone and its derivatives to toggle perks manually
+				Defaults to true
+				Doesn't require a reload to change
+				'''
+		}
+	}
+}
